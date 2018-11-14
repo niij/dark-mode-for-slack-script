@@ -3,7 +3,7 @@
 slackResourceDir=/Applications/Slack.app/Contents/Resources
 ssbInterop=$slackResourceDir/app.asar.unpacked/src/static/ssb-interop.js
 darkModeToggle=$slackResourceDir/dark-mode-toggle.pref
-darkModeAddon=$(PWD)/dark-mode-addon.js
+darkModeAddon=$(dirname "$0")/dark-mode-addon.js
 
 setup()
 {
